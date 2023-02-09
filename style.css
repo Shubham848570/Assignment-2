@@ -1,0 +1,44 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+  }
+  
+  
+
+  body{
+    
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.6), 
+          #00000099
+        ),
+        /* bottom, image */
+        url(R.jpg);
+    backdrop-filter: blur(4px);
+    background-size: cover;
+    color: #bab6b6;
+  }
+
+  header {
+    
+    border-bottom: 2px double #bab6b6;
+    color: #bab6b6 ;
+    
+  }
+  
+  .lyrics h2 {
+    font-family: 'Bangers', cursive;
+    font-size: 2em;
+    margin-top: 2em;
+  }
+  
+  .lyrics p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    margin: 1em 0;
+    font-weight: 900;
+  }
+  
